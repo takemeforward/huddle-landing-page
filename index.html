@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&family=Poppins&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&family=Poppins&display=swap');
+    h1{
+      font-family: 'Poppins', sans-serif;
+    }
+    body{
+      background-image: url("images/bg-desktop.svg");
+      background-color: hsl(257, 40%, 49%);
+      font-family: 'Fraunces', serif;
+    }
+    .container{
+      position: absolute;
+      top: 20%;
+      left: 5%;
+      right: 5%;
+      bottom: 5%;
+      width: 90%;
+      height: 90%;
+      margin: auto;
+    }
+    footer{
+      margin: 97% auto 2% auto;
+    }
+    .left{
+      display: inline-block;
+      height: inherit;
+      width: 54%;
+    }
+    .right{
+      display: inline-block;
+      position: absolute;
+      left: 54%;
+      height: inherit;
+      width: 46%;
+    }
+    .image{
+     padding-top: 5%;
+      width: 96%;
+    }
+    .top-container{
+      position: absolute;
+      left: 5%;
+      top: 1%;
+    }
+   
+    .head1{
+      color: whitesmoke;
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    .head1:hover{
+      cursor: pointer;
+    }
+    .head2{
+      margin-bottom: 0;
+      padding-bottom: 2%;
+      font-size: 2.9rem;
+      padding-left: 5%;
+      color: whitesmoke;
+      font-weight: 600;
+    }
+    .paragraph{
+      margin-top: 1%;
+      padding-top: 1%;
+      padding-left: 5%;
+      padding-right: 10%;
+      line-height: 1.5;
+      color: whitesmoke;
+      font-weight: 400;
+    }
+    .btn{
+      pointer-events: auto;
+      margin-top: 1%;
+      background-color: whitesmoke;
+      border: none;
+      font-weight: 600;
+      color: violet;
+      border-style: none;
+      font-size: 16px;
+      padding: 15px 50px;
+      border-radius: 30px;
+      margin-left: 5%;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.45);
+    }
+    .btn:hover{
+      cursor: pointer;
+       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.8), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .bottom{
+      position: absolute;
+      right: 5%;
+      bottom: 2%;
+      width: 15%;
+      height: 8%;
+    }
+    .logo{
+      height: 30px;
+      width: 30px;
+      margin: 5%;
+      background-color: whitesmoke;
+      border-color: whitesmoke;
+      border-radius: 10px;
+      margin: auto;
+
+    }
+    .bottom-container
+    {
+      display: inline-block;
+      position: absolute;
+      bottom: 1%;
+      left: 5%;
+    }
+    .attribution{
+      font-size: 16px;
+      text-align: center;
+      color: whitesmoke;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-container"> <h1 class="head1">✉Huddle</h1></div>
+  <div class="container">
+    <div class="left">
+      <img class = "image" src="images/illustration-mockups.svg">
+    </div>
+    <div class="right">
+       <h1 class="head2">Build The Community Your Fans Will Love</h1>
+
+    <p class="paragraph">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion. </p>
+
+  <button onclick="#" class="btn">Register</button>
+   </div>
+   <div class="bottom">
+     <a href="https://www.linkedin.com/in/vishal-kumar-25a01421a/"><img class="logo" src="images/linkedin.svg"></a>
+     <a href="https://twitter.com/kaih_ke_lunga"><img class="logo" src="images/twitter.svg"></a>
+     <a href="https://www.instagram.com/kaih_ke_lunga/"><img class="logo" src="images/instagram.svg"></a>
+   </div>
+
+  </div>
+  
+
+  <footer class="bottom-container">
+    <p class="attribution">
+      Challenge by <a style="color: pink;" href="#" target="_blank">Frontend Mentor</a>. 
+      Coded by <a style="color: pink;" href="https://www.linkedin.com/in/vishal-kumar-25a01421a/">Vishal Jha</a>.
+    </p>
+  </footer>
+</body>
+</html>
